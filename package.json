@@ -1,0 +1,25 @@
+{
+  "name": "ajv-schema",
+  "version": "1.0.0",
+  "description": "Simple example of ajv schema",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KovacZan/ajv-schema.git"
+  },
+  "author": "Žan Kovač",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KovacZan/ajv-schema/issues"
+  },
+  "homepage": "https://github.com/KovacZan/ajv-schema#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  }
+}
