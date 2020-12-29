@@ -4,8 +4,8 @@
   "description": "Simple example of ajv schema",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+    "start": "tsc && node dist/breitling.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/breitling.ts"
   },
   "repository": {
     "type": "git",
